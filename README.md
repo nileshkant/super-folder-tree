@@ -56,5 +56,3 @@ In this approach, I have created a tree with multiple root node and try to add, 
 ```
 
 Fork to contribute to this project
-
-### Add element to tree
