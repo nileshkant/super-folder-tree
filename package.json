@@ -2,6 +2,7 @@
   "name": "super-folder-tree",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nileshkant.github.io/super-folder-tree",
   "dependencies": {
     "@styled-icons/fluentui-system-filled": "^10.35.0",
     "@styled-icons/fluentui-system-regular": "^10.35.0",
@@ -21,6 +22,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,6 +49,7 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.25",
-    "@types/styled-system": "^5.1.15"
+    "@types/styled-system": "^5.1.15",
+    "gh-pages": "^4.0.0"
   }
 }
