@@ -7,7 +7,7 @@ I have create a simple approach to work with JSON and create a tree in JavaScrip
 In this approach, I have created a tree with multiple root node and try to add, update and remove elements from it.
 
 ```json
-var tree = [
+[
   {
     "id": "0",
     "name": "root",
@@ -19,19 +19,19 @@ var tree = [
         "type": "folder",
         "files": [
           {
-              "id": "0-0-0",
-              "name": "child1-1",
-              "type": "file",
+            "id": "0-0-0",
+            "name": "child1-1",
+            "type": "file"
           },
           {
-              "id": "0-0-1",
-              "name": "child1-2",
-              "type": "folder",
-              "files": [],
+            "id": "0-0-1",
+            "name": "child1-2",
+            "type": "folder",
+            "files": []
           }
         ]
-      },
-    ],
+      }
+    ]
   },
   {
     "id": "1",
@@ -44,15 +44,15 @@ var tree = [
         "type": "folder",
         "files": [
           {
-              "id": "1-0-0",
-              "name": "child1-1",
-              "type": "file",
-          },
+            "id": "1-0-0",
+            "name": "child1-1",
+            "type": "file"
+          }
         ]
-      },
-    ],
-  },
-];
+      }
+    ]
+  }
+]
 ```
 
 Fork to contribute to this project
